@@ -1,7 +1,10 @@
 # Lead Classification Pipeline
 
 **Role:** Lead Developer & Automation Architect  
-**Tech Stack:** Python 3, Google Gemini 2.5 Flash, httpx, Baserow, n8n
+**Tech Stack:** n8n, Google Gemini 2.5 Flash, Baserow, HTTP Request (web scraping)
+
+**Files:**
+- `LeadSwift-Category-Classifier.json` — Sanitized n8n workflow export (schedule trigger, 16 nodes)
 
 ## What It Does
 
