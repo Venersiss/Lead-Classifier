@@ -62,7 +62,3 @@ Every classification stores the `reason` (which keyword matched, which stage cla
 
 The 3-stage architecture, cost optimization strategy, and error handling patterns are accurate representations of the production system.
 
-## Relevance to Application Questions
-
-- **Q12 (AI/automation systems):** Production classification system processing real business leads
-- **Q15 (AI producing wrong answers):** The keyword classifier sometimes misclassified "Green Energy Solutions" as solar when it was actually a general consulting firm. We detected this through the `classifier_reason` audit trail and refined by adding the website scrape + LLM fallback stages, and by adding negative keywords (e.g., "consulting", "broker") that force the LLM review
